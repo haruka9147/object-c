@@ -12,7 +12,7 @@
 
 @interface Docter : NSObject
 @property (nonatomic, strong) NSString *name;
-@property (nonatomic, strong) NSMutableArray *patientArr;
+@property (nonatomic, strong) Prescriptions *prescriptions;
 
 - (instancetype)initName: (NSString *) name;
 - (void) visit: (Patient *) patient;

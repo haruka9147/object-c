@@ -13,8 +13,15 @@
 {
     self = [super init];
     if (self) {
-        _prescriptions = [[NSMutableArray alloc] init];
+        _prescriptions = [[NSMutableDictionary alloc] init];
+        
     }
     return self;
 }
+
+//- (void) addPrescriptionToPatient: (Patient *) {
+//    [_prescriptions setObject:<#(nonnull id)#> forKey:<#(nonnull id<NSCopying>)#>];
+//}
+
+
 @end

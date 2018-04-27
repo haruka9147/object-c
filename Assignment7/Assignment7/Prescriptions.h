@@ -9,6 +9,6 @@
 #import <Foundation/Foundation.h>
 
 @interface Prescriptions : NSObject
-@property (nonatomic, strong) NSMutableArray *prescriptions;
+@property (nonatomic, strong) NSMutableDictionary *prescriptions;
 //@property (nonatomic, strong) NSString *prescription;
 @end

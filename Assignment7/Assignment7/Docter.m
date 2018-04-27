@@ -15,6 +15,7 @@
     if (self) {
         _name = name;
         _patientArr = [[NSMutableArray alloc] init];
+    
     }
     return self;
 }
@@ -25,6 +26,7 @@
         [_patientArr addObject:patient];
     }
 }
+
 - (NSString *) requestMedication: (Patient *) patient
 {
     return @"prescription";
