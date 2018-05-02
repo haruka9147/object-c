@@ -7,16 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0D44C0F3209909BB00F2A028 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D44C0F2209909BB00F2A028 /* main.m */; };
-		0D8A0DF6209A72F500D3DC31 /* AnchovyManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D8A0DF5209A72F500D3DC31 /* AnchovyManager.m */; };
-		0D8A0DFC209A754D00D3DC31 /* CheeryManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D8A0DFB209A754D00D3DC31 /* CheeryManager.m */; };
-		0DD117B920998FF700AC012A /* InputHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DD117B820998FF700AC012A /* InputHandler.m */; };
-		0DD117BC2099902900AC012A /* Kitchen.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DD117BB2099902900AC012A /* Kitchen.m */; };
-		0DD117BF2099905400AC012A /* Pizza.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DD117BE2099905400AC012A /* Pizza.m */; };
+		0D8A0DEA209A6BAE00D3DC31 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D8A0DE9209A6BAE00D3DC31 /* main.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		0D44C0ED209909BB00F2A028 /* CopyFiles */ = {
+		0D8A0DE4209A6BAE00D3DC31 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
@@ -28,23 +23,12 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		0D44C0EF209909BB00F2A028 /* Assignment11 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Assignment11; sourceTree = BUILT_PRODUCTS_DIR; };
-		0D44C0F2209909BB00F2A028 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		0D8A0DF0209A6C3000D3DC31 /* KitchenDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KitchenDelegate.h; sourceTree = "<group>"; };
-		0D8A0DF4209A72F500D3DC31 /* AnchovyManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AnchovyManager.h; sourceTree = "<group>"; };
-		0D8A0DF5209A72F500D3DC31 /* AnchovyManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AnchovyManager.m; sourceTree = "<group>"; };
-		0D8A0DFA209A754D00D3DC31 /* CheeryManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CheeryManager.h; sourceTree = "<group>"; };
-		0D8A0DFB209A754D00D3DC31 /* CheeryManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CheeryManager.m; sourceTree = "<group>"; };
-		0DD117B720998FF700AC012A /* InputHandler.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = InputHandler.h; sourceTree = "<group>"; };
-		0DD117B820998FF700AC012A /* InputHandler.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = InputHandler.m; sourceTree = "<group>"; };
-		0DD117BA2099902900AC012A /* Kitchen.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Kitchen.h; sourceTree = "<group>"; };
-		0DD117BB2099902900AC012A /* Kitchen.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Kitchen.m; sourceTree = "<group>"; };
-		0DD117BD2099905400AC012A /* Pizza.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Pizza.h; sourceTree = "<group>"; };
-		0DD117BE2099905400AC012A /* Pizza.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Pizza.m; sourceTree = "<group>"; };
+		0D8A0DE6209A6BAE00D3DC31 /* Assignment13 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Assignment13; sourceTree = BUILT_PRODUCTS_DIR; };
+		0D8A0DE9209A6BAE00D3DC31 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		0D44C0EC209909BB00F2A028 /* Frameworks */ = {
+		0D8A0DE3209A6BAE00D3DC31 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -54,111 +38,95 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0D44C0E6209909BB00F2A028 = {
+		0D8A0DDD209A6BAE00D3DC31 = {
 			isa = PBXGroup;
 			children = (
-				0D44C0F1209909BB00F2A028 /* Assignment11 */,
-				0D44C0F0209909BB00F2A028 /* Products */,
+				0D8A0DE8209A6BAE00D3DC31 /* Assignment13 */,
+				0D8A0DE7209A6BAE00D3DC31 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		0D44C0F0209909BB00F2A028 /* Products */ = {
+		0D8A0DE7209A6BAE00D3DC31 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				0D44C0EF209909BB00F2A028 /* Assignment11 */,
+				0D8A0DE6209A6BAE00D3DC31 /* Assignment13 */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		0D44C0F1209909BB00F2A028 /* Assignment11 */ = {
+		0D8A0DE8209A6BAE00D3DC31 /* Assignment13 */ = {
 			isa = PBXGroup;
 			children = (
-				0D44C0F2209909BB00F2A028 /* main.m */,
-				0DD117B720998FF700AC012A /* InputHandler.h */,
-				0DD117B820998FF700AC012A /* InputHandler.m */,
-				0DD117BA2099902900AC012A /* Kitchen.h */,
-				0DD117BB2099902900AC012A /* Kitchen.m */,
-				0DD117BD2099905400AC012A /* Pizza.h */,
-				0DD117BE2099905400AC012A /* Pizza.m */,
-				0D8A0DF0209A6C3000D3DC31 /* KitchenDelegate.h */,
-				0D8A0DF4209A72F500D3DC31 /* AnchovyManager.h */,
-				0D8A0DF5209A72F500D3DC31 /* AnchovyManager.m */,
-				0D8A0DFA209A754D00D3DC31 /* CheeryManager.h */,
-				0D8A0DFB209A754D00D3DC31 /* CheeryManager.m */,
+				0D8A0DE9209A6BAE00D3DC31 /* main.m */,
 			);
-			path = Assignment11;
+			path = Assignment13;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		0D44C0EE209909BB00F2A028 /* Assignment11 */ = {
+		0D8A0DE5209A6BAE00D3DC31 /* Assignment13 */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 0D44C0F6209909BB00F2A028 /* Build configuration list for PBXNativeTarget "Assignment11" */;
+			buildConfigurationList = 0D8A0DED209A6BAE00D3DC31 /* Build configuration list for PBXNativeTarget "Assignment13" */;
 			buildPhases = (
-				0D44C0EB209909BB00F2A028 /* Sources */,
-				0D44C0EC209909BB00F2A028 /* Frameworks */,
-				0D44C0ED209909BB00F2A028 /* CopyFiles */,
+				0D8A0DE2209A6BAE00D3DC31 /* Sources */,
+				0D8A0DE3209A6BAE00D3DC31 /* Frameworks */,
+				0D8A0DE4209A6BAE00D3DC31 /* CopyFiles */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = Assignment11;
-			productName = Assignment11;
-			productReference = 0D44C0EF209909BB00F2A028 /* Assignment11 */;
+			name = Assignment13;
+			productName = Assignment13;
+			productReference = 0D8A0DE6209A6BAE00D3DC31 /* Assignment13 */;
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		0D44C0E7209909BB00F2A028 /* Project object */ = {
+		0D8A0DDE209A6BAE00D3DC31 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 0920;
 				ORGANIZATIONNAME = com.Haruka;
 				TargetAttributes = {
-					0D44C0EE209909BB00F2A028 = {
+					0D8A0DE5209A6BAE00D3DC31 = {
 						CreatedOnToolsVersion = 9.2;
 						ProvisioningStyle = Automatic;
 					};
 				};
 			};
-			buildConfigurationList = 0D44C0EA209909BB00F2A028 /* Build configuration list for PBXProject "Assignment11" */;
+			buildConfigurationList = 0D8A0DE1209A6BAE00D3DC31 /* Build configuration list for PBXProject "Assignment13" */;
 			compatibilityVersion = "Xcode 8.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 			);
-			mainGroup = 0D44C0E6209909BB00F2A028;
-			productRefGroup = 0D44C0F0209909BB00F2A028 /* Products */;
+			mainGroup = 0D8A0DDD209A6BAE00D3DC31;
+			productRefGroup = 0D8A0DE7209A6BAE00D3DC31 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				0D44C0EE209909BB00F2A028 /* Assignment11 */,
+				0D8A0DE5209A6BAE00D3DC31 /* Assignment13 */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		0D44C0EB209909BB00F2A028 /* Sources */ = {
+		0D8A0DE2209A6BAE00D3DC31 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0D8A0DF6209A72F500D3DC31 /* AnchovyManager.m in Sources */,
-				0DD117BF2099905400AC012A /* Pizza.m in Sources */,
-				0D44C0F3209909BB00F2A028 /* main.m in Sources */,
-				0D8A0DFC209A754D00D3DC31 /* CheeryManager.m in Sources */,
-				0DD117B920998FF700AC012A /* InputHandler.m in Sources */,
-				0DD117BC2099902900AC012A /* Kitchen.m in Sources */,
+				0D8A0DEA209A6BAE00D3DC31 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		0D44C0F4209909BB00F2A028 /* Debug */ = {
+		0D8A0DEB209A6BAE00D3DC31 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -213,7 +181,7 @@
 			};
 			name = Debug;
 		};
-		0D44C0F5209909BB00F2A028 /* Release */ = {
+		0D8A0DEC209A6BAE00D3DC31 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -261,7 +229,7 @@
 			};
 			name = Release;
 		};
-		0D44C0F7209909BB00F2A028 /* Debug */ = {
+		0D8A0DEE209A6BAE00D3DC31 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -269,7 +237,7 @@
 			};
 			name = Debug;
 		};
-		0D44C0F8209909BB00F2A028 /* Release */ = {
+		0D8A0DEF209A6BAE00D3DC31 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -280,25 +248,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		0D44C0EA209909BB00F2A028 /* Build configuration list for PBXProject "Assignment11" */ = {
+		0D8A0DE1209A6BAE00D3DC31 /* Build configuration list for PBXProject "Assignment13" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				0D44C0F4209909BB00F2A028 /* Debug */,
-				0D44C0F5209909BB00F2A028 /* Release */,
+				0D8A0DEB209A6BAE00D3DC31 /* Debug */,
+				0D8A0DEC209A6BAE00D3DC31 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		0D44C0F6209909BB00F2A028 /* Build configuration list for PBXNativeTarget "Assignment11" */ = {
+		0D8A0DED209A6BAE00D3DC31 /* Build configuration list for PBXNativeTarget "Assignment13" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				0D44C0F7209909BB00F2A028 /* Debug */,
-				0D44C0F8209909BB00F2A028 /* Release */,
+				0D8A0DEE209A6BAE00D3DC31 /* Debug */,
+				0D8A0DEF209A6BAE00D3DC31 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 0D44C0E7209909BB00F2A028 /* Project object */;
+	rootObject = 0D8A0DDE209A6BAE00D3DC31 /* Project object */;
 }

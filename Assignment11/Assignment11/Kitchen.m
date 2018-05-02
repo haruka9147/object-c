@@ -12,22 +12,20 @@
 
 - (Pizza *)makePizzaWithSize:(PizzaSize)size toppings:(NSArray *)toppings
 {
-    return [[Pizza alloc] initWithSize:size AndToppings: toppings];
-}
-
-- (BOOL)kitchen:(Kitchen *)kitchen shouldMakePizzaOfSize:(PizzaSize)size andToppings:(NSArray *)toppings
-{
-    
-}
-
-- (BOOL)kitchenShouldUpgradeOrder:(Kitchen *)kitchen
-{
-    
-}
-
-- (void)kitchenDidMakePizza:(Pizza *)pizza
-{
-    
+    if(self.delegate && [self.delegate kitchen:self shouldMakePizzaOfSize:size andToppings:toppings]){
+        if([self.delegate kitchenShouldUpgradeOrder:self]) {
+            if([self.delegate respondsToSelector: @selector(kitchenDidMakePizza:)]) {
+                [self.delegate kitchenDidMakePizza:[[Pizza alloc] initWithSize: Large AndToppings:toppings]];
+                return [[Pizza alloc] initWithSize: Large AndToppings:toppings];
+            }
+        } else {
+            if([self.delegate respondsToSelector: @selector(kitchenDidMakePizza:)]) {
+                [self.delegate kitchenDidMakePizza:[[Pizza alloc] initWithSize: size AndToppings:toppings]];
+                return [[Pizza alloc] initWithSize: size AndToppings:toppings];
+            }
+        }
+    }
+    return nil;
 }
 
 @end
