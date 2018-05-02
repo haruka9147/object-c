@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		0D8A0DEA209A6BAE00D3DC31 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D8A0DE9209A6BAE00D3DC31 /* main.m */; };
+		0D8A0DFF209A7CA400D3DC31 /* InputHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D8A0DFE209A7CA400D3DC31 /* InputHandler.m */; };
+		0D8A0E05209A7D7800D3DC31 /* NSString+PigLatin.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D8A0E04209A7D7800D3DC31 /* NSString+PigLatin.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +27,10 @@
 /* Begin PBXFileReference section */
 		0D8A0DE6209A6BAE00D3DC31 /* Assignment13 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Assignment13; sourceTree = BUILT_PRODUCTS_DIR; };
 		0D8A0DE9209A6BAE00D3DC31 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0D8A0DFD209A7CA400D3DC31 /* InputHandler.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = InputHandler.h; sourceTree = "<group>"; };
+		0D8A0DFE209A7CA400D3DC31 /* InputHandler.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = InputHandler.m; sourceTree = "<group>"; };
+		0D8A0E03209A7D7800D3DC31 /* NSString+PigLatin.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSString+PigLatin.h"; sourceTree = "<group>"; };
+		0D8A0E04209A7D7800D3DC31 /* NSString+PigLatin.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSString+PigLatin.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +64,10 @@
 			isa = PBXGroup;
 			children = (
 				0D8A0DE9209A6BAE00D3DC31 /* main.m */,
+				0D8A0DFD209A7CA400D3DC31 /* InputHandler.h */,
+				0D8A0DFE209A7CA400D3DC31 /* InputHandler.m */,
+				0D8A0E03209A7D7800D3DC31 /* NSString+PigLatin.h */,
+				0D8A0E04209A7D7800D3DC31 /* NSString+PigLatin.m */,
 			);
 			path = Assignment13;
 			sourceTree = "<group>";
@@ -119,7 +129,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0D8A0E05209A7D7800D3DC31 /* NSString+PigLatin.m in Sources */,
 				0D8A0DEA209A6BAE00D3DC31 /* main.m in Sources */,
+				0D8A0DFF209A7CA400D3DC31 /* InputHandler.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
