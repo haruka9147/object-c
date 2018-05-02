@@ -15,4 +15,19 @@
     return [[Pizza alloc] initWithSize:size AndToppings: toppings];
 }
 
+- (BOOL)kitchen:(Kitchen *)kitchen shouldMakePizzaOfSize:(PizzaSize)size andToppings:(NSArray *)toppings
+{
+    
+}
+
+- (BOOL)kitchenShouldUpgradeOrder:(Kitchen *)kitchen
+{
+    
+}
+
+- (void)kitchenDidMakePizza:(Pizza *)pizza
+{
+    
+}
+
 @end

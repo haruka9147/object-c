@@ -1,5 +1,5 @@
 //
-//  Kitchen.h
+//  Delegate.h
 //  Assignment11
 //
 //  Created by 北田晴佳 on 2018/05/01.
@@ -7,14 +7,16 @@
 //
 
 #import <Foundation/Foundation.h>
-#import "Delegate.h"
+#import "Pizza.h"
+#import "Kitchen.h"
 
-@interface Kitchen : NSObject <KitchenDelegate>
-
-- (Pizza *)makePizzaWithSize:(PizzaSize)size toppings:(NSArray *)toppings;
-
+@protocol KitchenDelegate <NSObject>
 - (BOOL)kitchen:(Kitchen *)kitchen shouldMakePizzaOfSize:(PizzaSize)size andToppings:(NSArray *)toppings;
 - (BOOL)kitchenShouldUpgradeOrder:(Kitchen *)kitchen;
 - (void)kitchenDidMakePizza:(Pizza *)pizza;
+@end
 
+@interface Delegate : NSObject
+@property (nonatomic, weak) id<KitchenDelegate> delegate;
+- (BOOL) askDelegate;
 @end
