@@ -17,7 +17,7 @@
     NSArray *words = [self componentsSeparatedByString:@" "];
     
     for (NSString *word in words) {
-        if([clusters containsObject:[word substringToIndex:2]]) {
+        if([clusters containsObject:[[word substringToIndex:2] lowercaseString]]) {
             NSString *pig = [NSString stringWithFormat:@"%@%@ay",
                              [word substringFromIndex:2],
                              [word substringToIndex:2]];
